@@ -1,10 +1,10 @@
 import { ChangeEvent } from "react";
-import { GenreOptionsProps } from "./options";
+import { OptionsProps } from "./options";
 
 type SelectProps = {
-  value: string;
+  value: number | string;
   onChange: (e: ChangeEvent<HTMLSelectElement>) => void;
-  options: GenreOptionsProps;
+  options: OptionsProps;
 };
 
 export const Select = (props: SelectProps) => {
