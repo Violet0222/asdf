@@ -4,7 +4,8 @@
 
 // import { FadeScroll } from "./fadeScroll/fadeScroll";
 import s from "./App.module.css";
-import { MemeGeneratorWithCustomText } from "./memeGeneratorWithCustomText/memeGeneratorWithCustomText";
+
+import { RandomRecipeGenerator } from "./randomRecipeGenerator/randomRecipeGenerator";
 // import { DynamicallyGeneratedTextArt } from "./dynamicallyGeneratedTextArt/dynamicallyGeneratedTextArt";
 // import { StopWatch } from "./stopWatch/stopWatch";
 
@@ -13,7 +14,7 @@ import { MemeGeneratorWithCustomText } from "./memeGeneratorWithCustomText/memeG
 function App() {
   return (
     <div className={s.app}>
-      <MemeGeneratorWithCustomText />
+      <RandomRecipeGenerator />
     </div>
   );
 }
