@@ -4,13 +4,14 @@
 
 // import { FadeScroll } from "./fadeScroll/fadeScroll";
 import s from "./App.module.css";
-import { DynamicallyGeneratedTextArt } from "./dynamicallyGeneratedTextArt/dynamicallyGeneratedTextArt";
+// import { DynamicallyGeneratedTextArt } from "./dynamicallyGeneratedTextArt/dynamicallyGeneratedTextArt";
+import { StopWatch } from "./stopWatch/stopWatch";
 
 // import s from "./App.module.css";
 function App() {
   return (
     <div className={s.app}>
-      <DynamicallyGeneratedTextArt/>
+      <StopWatch />
     </div>
   );
 }
