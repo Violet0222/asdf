@@ -4,14 +4,16 @@
 
 // import { FadeScroll } from "./fadeScroll/fadeScroll";
 import s from "./App.module.css";
+import { MemeGeneratorWithCustomText } from "./memeGeneratorWithCustomText/memeGeneratorWithCustomText";
 // import { DynamicallyGeneratedTextArt } from "./dynamicallyGeneratedTextArt/dynamicallyGeneratedTextArt";
-import { StopWatch } from "./stopWatch/stopWatch";
+// import { StopWatch } from "./stopWatch/stopWatch";
 
 // import s from "./App.module.css";
+
 function App() {
   return (
     <div className={s.app}>
-      <StopWatch />
+      <MemeGeneratorWithCustomText />
     </div>
   );
 }
